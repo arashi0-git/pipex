@@ -6,7 +6,7 @@
 #    By: aryamamo <aryamamo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/13 13:10:24 by aryamamo          #+#    #+#              #
-#    Updated: 2025/01/10 12:09:20 by aryamamo         ###   ########.fr        #
+#    Updated: 2025/01/11 17:02:15 by aryamamo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ CFLAGS = -Wall -Werror -Wextra
 VALGRIND    := valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --track-fds=yes -q
 
 
-LIBFTDIR = ./libft
+LIBFTDIR = ./libft_v2
 
 LIBFT = $(LIBFTDIR)/libft.a
 
